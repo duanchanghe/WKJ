@@ -60,15 +60,7 @@
 		908C5E711DC8206200841D5E /* 沃克家 舒适家居 */ = {
 			isa = PBXGroup;
 			children = (
-				908C5E751DC8206200841D5E /* AppDelegate.h */,
-				908C5E761DC8206200841D5E /* AppDelegate.m */,
-				908C5E781DC8206200841D5E /* ViewController.h */,
-				908C5E791DC8206200841D5E /* ViewController.m */,
-				908C5E7B1DC8206200841D5E /* Main.storyboard */,
-				908C5E811DC8206200841D5E /* Assets.xcassets */,
-				908C5E831DC8206200841D5E /* LaunchScreen.storyboard */,
-				908C5E861DC8206200841D5E /* Info.plist */,
-				908C5E7E1DC8206200841D5E /* ________.xcdatamodeld */,
+				908C5E8C1DC839D600841D5E /* Main Files */,
 				908C5E721DC8206200841D5E /* Supporting Files */,
 			);
 			path = "沃克家 舒适家居";
@@ -80,6 +72,22 @@
 				908C5E731DC8206200841D5E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		908C5E8C1DC839D600841D5E /* Main Files */ = {
+			isa = PBXGroup;
+			children = (
+				908C5E751DC8206200841D5E /* AppDelegate.h */,
+				908C5E761DC8206200841D5E /* AppDelegate.m */,
+				908C5E781DC8206200841D5E /* ViewController.h */,
+				908C5E791DC8206200841D5E /* ViewController.m */,
+				908C5E7B1DC8206200841D5E /* Main.storyboard */,
+				908C5E811DC8206200841D5E /* Assets.xcassets */,
+				908C5E831DC8206200841D5E /* LaunchScreen.storyboard */,
+				908C5E861DC8206200841D5E /* Info.plist */,
+				908C5E7E1DC8206200841D5E /* ________.xcdatamodeld */,
+			);
+			name = "Main Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +121,7 @@
 				TargetAttributes = {
 					908C5E6E1DC8206200841D5E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 25MJECS72H;
+						DevelopmentTeam = 3B9779VWJ6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -223,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -265,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -277,7 +285,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 25MJECS72H;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3B9779VWJ6;
 				INFOPLIST_FILE = "沃克家 舒适家居/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jdnt.www.--------";
@@ -289,7 +298,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 25MJECS72H;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3B9779VWJ6;
 				INFOPLIST_FILE = "沃克家 舒适家居/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jdnt.www.--------";
@@ -316,6 +326,7 @@
 				908C5E8B1DC8206200841D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
