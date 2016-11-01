@@ -1,9 +1,9 @@
 //
 //  main.m
-//  法和控股
+//  沃克家 舒适家居
 //
-//  Created by 段昌鹤 on 16/10/6.
-//  Copyright © 2016年 段 昌鹤. All rights reserved.
+//  Created by jundanuantong on 16/11/1.
+//  Copyright © 2016年 jundanuantong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
