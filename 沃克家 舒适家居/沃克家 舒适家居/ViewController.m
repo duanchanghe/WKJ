@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *LoginButton;
 
 @end
 
@@ -16,15 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _LoginButton.layer.masksToBounds = YES;
+    _LoginButton.layer.cornerRadius = CGRectGetWidth(_LoginButton.frame);
     
     
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

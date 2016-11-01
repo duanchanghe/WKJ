@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -47,6 +48,10 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="82" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jWl-bp-1f3">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Cz7-E5-l3k"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="hKY-nH-qva"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.7225162637702095" blue="0.63841610101796953" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,6 +69,9 @@
                     <navigationItem key="navigationItem" title="销售" id="UiC-PJ-wTz">
                         <barButtonItem key="backBarButtonItem" title="返回" id="XFg-GH-8Mh"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="jWl-bp-1f3" id="k0z-ZY-3tY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -190,10 +198,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9rV-pE-sc7"/>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wd-JY-f8a">
-                                <frame key="frameInset" minX="57" minY="252" width="207" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wd-JY-f8a">
                                 <color key="backgroundColor" red="0.68828124999999996" green="0.27713569485885986" blue="0.54269385453610131" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6wd-JY-f8a" secondAttribute="height" multiplier="1:1" id="W2Z-EU-hk9"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="7"/>
                                 <color key="tintColor" red="0.33126035326634118" green="0.38010260100535914" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="快去登入"/>
@@ -207,12 +216,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6wd-JY-f8a" firstAttribute="centerX" secondItem="sBH-GB-zl4" secondAttribute="centerX" id="03a-zw-mUL"/>
+                            <constraint firstItem="AL1-sc-y61" firstAttribute="top" secondItem="6wd-JY-f8a" secondAttribute="bottom" constant="40" id="5yM-Gx-erX"/>
                             <constraint firstAttribute="trailing" secondItem="9rV-pE-sc7" secondAttribute="trailing" id="8NY-Ge-wSY"/>
                             <constraint firstItem="9rV-pE-sc7" firstAttribute="leading" secondItem="sBH-GB-zl4" secondAttribute="leading" id="A91-HE-HfN"/>
                             <constraint firstItem="9rV-pE-sc7" firstAttribute="top" secondItem="sBH-GB-zl4" secondAttribute="top" id="TFk-5Z-5Cl"/>
                             <constraint firstAttribute="bottom" secondItem="9rV-pE-sc7" secondAttribute="bottom" id="dZe-SV-KuF"/>
+                            <constraint firstItem="6wd-JY-f8a" firstAttribute="width" secondItem="9rV-pE-sc7" secondAttribute="width" multiplier="0.3" id="jzT-za-uV4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LoginButton" destination="6wd-JY-f8a" id="dw7-OY-eTC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEe-Ci-fbP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -297,9 +312,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="84" height="67"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
+                                        <color key="backgroundColor" red="1" green="0.6357178052815442" blue="0.91079132759173898" alpha="1" colorSpace="calibratedRGB"/>
                                         <size key="customSize" width="84" height="67"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Dml-ZV-hX0" id="erY-hL-4aH"/>
+                                    <outlet property="delegate" destination="Dml-ZV-hX0" id="H2h-mU-q9M"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.79146656108785307" green="0.78171778266265202" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -384,6 +404,10 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-pG-CPe">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="6TP-VH-Coj" id="lpX-Ca-XuD"/>
+                                    <outlet property="delegate" destination="6TP-VH-Coj" id="3SW-cu-xzn"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.66548324572188666" blue="0.90726711640570057" alpha="1" colorSpace="calibratedRGB"/>
@@ -507,24 +531,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SNG-3H-Ev4">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SNG-3H-Ev4">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EcJ-Lo-mFI">
-                                    <size key="itemSize" width="83" height="77"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Vhv-D1-CmS">
+                                    <size key="itemSize" width="73" height="67"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="WKJAfterSaleCell" reuseIdentifier="WKJAfterSaleCell" id="YLi-i4-inB" customClass="WKJAfterSaleCell">
-                                        <rect key="frame" x="10" y="10" width="83" height="77"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="83" height="77"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="73" height="67"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
+                                        <color key="backgroundColor" red="1" green="0.69962116129980134" blue="0.66617091787799687" alpha="1" colorSpace="calibratedRGB"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="3DJ-Ge-M0W" id="TPR-wU-MCo"/>
+                                    <outlet property="delegate" destination="3DJ-Ge-M0W" id="ROf-V5-Cx3"/>
+                                </connections>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8t-DE-fLh">
                                 <subviews>
@@ -563,6 +592,9 @@
                     <navigationItem key="navigationItem" title="售后" id="k9W-iY-Zft">
                         <barButtonItem key="backBarButtonItem" title="返回" id="JHG-0O-6F4"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="SNG-3H-Ev4" id="3tr-lk-Tgt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyN-d6-eKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

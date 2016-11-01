@@ -11,6 +11,5 @@
 
 
 #define ASD     12;
-
-
+#define Storyboard(string)  ([[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:(string)])
 #endif /* Macros_h */

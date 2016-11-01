@@ -7,31 +7,77 @@
 //
 
 #import "WKJOffice.h"
+#import "WKJOfficeCell.h"
 
-@interface WKJOffice ()
+static NSString *officeCell = @"WKJOfficeCell";
 
+static NSString *WKJDiary = @"WKJDiary";
+static NSString *WKJCheckDiary = @"WKJCheckDiary";
+static NSString *WKJAttendance = @"WKJAttendance";
+static NSString *WKJCheckAttendance = @"WKJCheckAttendance";
+static NSString *WKJIncome = @"WKJIncome";
+static NSString *WKJPayOut = @"WKJPayOut";
+static NSString *WKJAccraditation = @"WKJAccraditation";
+static NSString *WKJList = @"WKJList";
+static NSString *WKJBill = @"WKJBill";
+
+@interface WKJOffice ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@property (nonatomic, copy) NSArray *dataArray;
 @end
 
 @implementation WKJOffice
+{
+    NSArray *VCArray;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self addDataSource];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addDataSource
+{
+    _dataArray = @[@[@"xiegongzuorizhi",@"写日志"],
+                   @[@"chakanrizhi",@"查看日志"],
+                   @[@"waichukaoqing",@"外出考勤"],
+                   @[@"chakankaoqing",@"查看考勤"],
+                   @[@"tianjiashour",@"添加收入"],
+                   @[@"tianjiazhichu",@"添加支出"],
+                   @[@"shouzhishenpi",@"收支审批"],
+                   @[@"mingxiliushuizhang",@"明细流水"],
+                   @[@"shouzhimingxi",@"收支总览"]];
+    VCArray = @[WKJDiary,
+                WKJCheckDiary,
+                WKJAttendance,
+                WKJCheckAttendance,
+                WKJIncome,
+                WKJPayOut,
+                WKJAccraditation,
+                WKJList,
+                WKJBill];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)collectionView:(UICollectionView *)collectionView
+     numberOfItemsInSection:(NSInteger)section
+{
+    return _dataArray.count;
 }
-*/
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+                  cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    WKJOfficeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:officeCell
+                                                                    forIndexPath:indexPath];
+    return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView
+didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.tabBarController.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:Storyboard(VCArray[indexPath.row])
+                                         animated:YES];
+    self.tabBarController.hidesBottomBarWhenPushed = NO;
+}
 
 @end
