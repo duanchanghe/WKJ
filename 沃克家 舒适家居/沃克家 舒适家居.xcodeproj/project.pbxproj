@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902EF6E71DC8440A00494E84 /* WKJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6E61DC8440A00494E84 /* WKJTabBar.m */; };
+		902EF6EA1DC8488100494E84 /* WKJAfterSaleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6E91DC8488100494E84 /* WKJAfterSaleCell.m */; };
+		902EF6ED1DC848FC00494E84 /* WKJOfficeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6EC1DC848FC00494E84 /* WKJOfficeCell.m */; };
+		902EF6F01DC84F0D00494E84 /* WKJTypeIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6EF1DC84F0D00494E84 /* WKJTypeIn.m */; };
+		902EF6F31DC84F2500494E84 /* WKJReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6F21DC84F2500494E84 /* WKJReport.m */; };
+		902EF6F61DC84F3D00494E84 /* WKJConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6F51DC84F3D00494E84 /* WKJConsumer.m */; };
+		902EF6F91DC84F5E00494E84 /* WKJContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6F81DC84F5E00494E84 /* WKJContract.m */; };
+		902EF6FC1DC84F8E00494E84 /* WKJContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6FB1DC84F8E00494E84 /* WKJContacts.m */; };
+		902EF6FF1DC84FA900494E84 /* WKJAddContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF6FE1DC84FA900494E84 /* WKJAddContacts.m */; };
+		902EF7021DC84FED00494E84 /* WKJDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7011DC84FED00494E84 /* WKJDispatch.m */; };
+		902EF7051DC8500800494E84 /* WKJDispatchList.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7041DC8500800494E84 /* WKJDispatchList.m */; };
+		902EF7081DC8502100494E84 /* WKJBegin.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7071DC8502100494E84 /* WKJBegin.m */; };
+		902EF70B1DC8503200494E84 /* WKJWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF70A1DC8503200494E84 /* WKJWorking.m */; };
+		902EF70E1DC8505300494E84 /* WKJCompele.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF70D1DC8505200494E84 /* WKJCompele.m */; };
+		902EF7111DC8507100494E84 /* WKJServant.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7101DC8507100494E84 /* WKJServant.m */; };
+		902EF7141DC850B200494E84 /* WKJMaintain.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7131DC850B200494E84 /* WKJMaintain.m */; };
+		902EF7171DC850F100494E84 /* WKJDiary.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7161DC850F100494E84 /* WKJDiary.m */; };
+		902EF71A1DC8510700494E84 /* WKJCheckDiary.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7191DC8510700494E84 /* WKJCheckDiary.m */; };
+		902EF71D1DC8511D00494E84 /* WKJAttendance.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF71C1DC8511D00494E84 /* WKJAttendance.m */; };
+		902EF7201DC8513E00494E84 /* WKJCheckAttendance.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF71F1DC8513E00494E84 /* WKJCheckAttendance.m */; };
+		902EF7231DC8515200494E84 /* WKJIncome.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7221DC8515200494E84 /* WKJIncome.m */; };
+		902EF7261DC8516400494E84 /* WKJPayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7251DC8516400494E84 /* WKJPayOut.m */; };
+		902EF7291DC8517600494E84 /* WKJAccraditation.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7281DC8517600494E84 /* WKJAccraditation.m */; };
+		902EF72C1DC8518600494E84 /* WKJList.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF72B1DC8518600494E84 /* WKJList.m */; };
+		902EF72F1DC8519900494E84 /* WKJBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF72E1DC8519900494E84 /* WKJBill.m */; };
+		902EF7321DC851B200494E84 /* WKJWebsit.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7311DC851B200494E84 /* WKJWebsit.m */; };
+		902EF7351DC851C200494E84 /* WKJCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7341DC851C200494E84 /* WKJCustomer.m */; };
+		902EF7381DC851D300494E84 /* WKJAsk.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF7371DC851D300494E84 /* WKJAsk.m */; };
+		902EF73B1DC851E300494E84 /* WKJUpdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF73A1DC851E300494E84 /* WKJUpdata.m */; };
+		902EF73E1DC851F500494E84 /* WKJAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 902EF73D1DC851F500494E84 /* WKJAbout.m */; };
 		908C5E741DC8206200841D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5E731DC8206200841D5E /* main.m */; };
 		908C5E771DC8206200841D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5E761DC8206200841D5E /* AppDelegate.m */; };
 		908C5E7A1DC8206200841D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5E791DC8206200841D5E /* ViewController.m */; };
@@ -14,9 +44,74 @@
 		908C5E801DC8206200841D5E /* ________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 908C5E7E1DC8206200841D5E /* ________.xcdatamodeld */; };
 		908C5E821DC8206200841D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908C5E811DC8206200841D5E /* Assets.xcassets */; };
 		908C5E851DC8206200841D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908C5E831DC8206200841D5E /* LaunchScreen.storyboard */; };
+		908C5E971DC83F7A00841D5E /* WKJLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5E961DC83F7A00841D5E /* WKJLogin.m */; };
+		908C5E9A1DC8402300841D5E /* WKJMarket.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5E991DC8402300841D5E /* WKJMarket.m */; };
+		908C5EA21DC840C600841D5E /* WKJAfterSale.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5EA11DC840C600841D5E /* WKJAfterSale.m */; };
+		908C5EA51DC840DD00841D5E /* WKJOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5EA41DC840DD00841D5E /* WKJOffice.m */; };
+		908C5EA81DC840F000841D5E /* WKJMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C5EA71DC840F000841D5E /* WKJMore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		902EF6E51DC8440A00494E84 /* WKJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJTabBar.h; sourceTree = "<group>"; };
+		902EF6E61DC8440A00494E84 /* WKJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJTabBar.m; sourceTree = "<group>"; };
+		902EF6E81DC8488100494E84 /* WKJAfterSaleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAfterSaleCell.h; sourceTree = "<group>"; };
+		902EF6E91DC8488100494E84 /* WKJAfterSaleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAfterSaleCell.m; sourceTree = "<group>"; };
+		902EF6EB1DC848FC00494E84 /* WKJOfficeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJOfficeCell.h; sourceTree = "<group>"; };
+		902EF6EC1DC848FC00494E84 /* WKJOfficeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJOfficeCell.m; sourceTree = "<group>"; };
+		902EF6EE1DC84F0D00494E84 /* WKJTypeIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJTypeIn.h; sourceTree = "<group>"; };
+		902EF6EF1DC84F0D00494E84 /* WKJTypeIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJTypeIn.m; sourceTree = "<group>"; };
+		902EF6F11DC84F2500494E84 /* WKJReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJReport.h; sourceTree = "<group>"; };
+		902EF6F21DC84F2500494E84 /* WKJReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJReport.m; sourceTree = "<group>"; };
+		902EF6F41DC84F3D00494E84 /* WKJConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJConsumer.h; sourceTree = "<group>"; };
+		902EF6F51DC84F3D00494E84 /* WKJConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJConsumer.m; sourceTree = "<group>"; };
+		902EF6F71DC84F5E00494E84 /* WKJContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJContract.h; sourceTree = "<group>"; };
+		902EF6F81DC84F5E00494E84 /* WKJContract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJContract.m; sourceTree = "<group>"; };
+		902EF6FA1DC84F8E00494E84 /* WKJContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJContacts.h; sourceTree = "<group>"; };
+		902EF6FB1DC84F8E00494E84 /* WKJContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJContacts.m; sourceTree = "<group>"; };
+		902EF6FD1DC84FA900494E84 /* WKJAddContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAddContacts.h; sourceTree = "<group>"; };
+		902EF6FE1DC84FA900494E84 /* WKJAddContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAddContacts.m; sourceTree = "<group>"; };
+		902EF7001DC84FED00494E84 /* WKJDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJDispatch.h; sourceTree = "<group>"; };
+		902EF7011DC84FED00494E84 /* WKJDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJDispatch.m; sourceTree = "<group>"; };
+		902EF7031DC8500800494E84 /* WKJDispatchList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJDispatchList.h; sourceTree = "<group>"; };
+		902EF7041DC8500800494E84 /* WKJDispatchList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJDispatchList.m; sourceTree = "<group>"; };
+		902EF7061DC8502100494E84 /* WKJBegin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJBegin.h; sourceTree = "<group>"; };
+		902EF7071DC8502100494E84 /* WKJBegin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJBegin.m; sourceTree = "<group>"; };
+		902EF7091DC8503200494E84 /* WKJWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJWorking.h; sourceTree = "<group>"; };
+		902EF70A1DC8503200494E84 /* WKJWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJWorking.m; sourceTree = "<group>"; };
+		902EF70C1DC8505200494E84 /* WKJCompele.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJCompele.h; sourceTree = "<group>"; };
+		902EF70D1DC8505200494E84 /* WKJCompele.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJCompele.m; sourceTree = "<group>"; };
+		902EF70F1DC8507100494E84 /* WKJServant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJServant.h; sourceTree = "<group>"; };
+		902EF7101DC8507100494E84 /* WKJServant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJServant.m; sourceTree = "<group>"; };
+		902EF7121DC850B200494E84 /* WKJMaintain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJMaintain.h; sourceTree = "<group>"; };
+		902EF7131DC850B200494E84 /* WKJMaintain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJMaintain.m; sourceTree = "<group>"; };
+		902EF7151DC850F100494E84 /* WKJDiary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJDiary.h; sourceTree = "<group>"; };
+		902EF7161DC850F100494E84 /* WKJDiary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJDiary.m; sourceTree = "<group>"; };
+		902EF7181DC8510700494E84 /* WKJCheckDiary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJCheckDiary.h; sourceTree = "<group>"; };
+		902EF7191DC8510700494E84 /* WKJCheckDiary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJCheckDiary.m; sourceTree = "<group>"; };
+		902EF71B1DC8511D00494E84 /* WKJAttendance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAttendance.h; sourceTree = "<group>"; };
+		902EF71C1DC8511D00494E84 /* WKJAttendance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAttendance.m; sourceTree = "<group>"; };
+		902EF71E1DC8513E00494E84 /* WKJCheckAttendance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJCheckAttendance.h; sourceTree = "<group>"; };
+		902EF71F1DC8513E00494E84 /* WKJCheckAttendance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJCheckAttendance.m; sourceTree = "<group>"; };
+		902EF7211DC8515200494E84 /* WKJIncome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJIncome.h; sourceTree = "<group>"; };
+		902EF7221DC8515200494E84 /* WKJIncome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJIncome.m; sourceTree = "<group>"; };
+		902EF7241DC8516400494E84 /* WKJPayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJPayOut.h; sourceTree = "<group>"; };
+		902EF7251DC8516400494E84 /* WKJPayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJPayOut.m; sourceTree = "<group>"; };
+		902EF7271DC8517600494E84 /* WKJAccraditation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAccraditation.h; sourceTree = "<group>"; };
+		902EF7281DC8517600494E84 /* WKJAccraditation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAccraditation.m; sourceTree = "<group>"; };
+		902EF72A1DC8518600494E84 /* WKJList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJList.h; sourceTree = "<group>"; };
+		902EF72B1DC8518600494E84 /* WKJList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJList.m; sourceTree = "<group>"; };
+		902EF72D1DC8519900494E84 /* WKJBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJBill.h; sourceTree = "<group>"; };
+		902EF72E1DC8519900494E84 /* WKJBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJBill.m; sourceTree = "<group>"; };
+		902EF7301DC851B200494E84 /* WKJWebsit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJWebsit.h; sourceTree = "<group>"; };
+		902EF7311DC851B200494E84 /* WKJWebsit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJWebsit.m; sourceTree = "<group>"; };
+		902EF7331DC851C200494E84 /* WKJCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJCustomer.h; sourceTree = "<group>"; };
+		902EF7341DC851C200494E84 /* WKJCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJCustomer.m; sourceTree = "<group>"; };
+		902EF7361DC851D300494E84 /* WKJAsk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAsk.h; sourceTree = "<group>"; };
+		902EF7371DC851D300494E84 /* WKJAsk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAsk.m; sourceTree = "<group>"; };
+		902EF7391DC851E300494E84 /* WKJUpdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJUpdata.h; sourceTree = "<group>"; };
+		902EF73A1DC851E300494E84 /* WKJUpdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJUpdata.m; sourceTree = "<group>"; };
+		902EF73C1DC851F500494E84 /* WKJAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAbout.h; sourceTree = "<group>"; };
+		902EF73D1DC851F500494E84 /* WKJAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAbout.m; sourceTree = "<group>"; };
 		908C5E6F1DC8206200841D5E /* 沃克家 舒适家居.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "沃克家 舒适家居.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908C5E731DC8206200841D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		908C5E751DC8206200841D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +123,18 @@
 		908C5E811DC8206200841D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		908C5E841DC8206200841D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		908C5E861DC8206200841D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908C5E931DC83CF300841D5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		908C5E941DC83E8000841D5E /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		908C5E951DC83F7A00841D5E /* WKJLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJLogin.h; sourceTree = "<group>"; };
+		908C5E961DC83F7A00841D5E /* WKJLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJLogin.m; sourceTree = "<group>"; };
+		908C5E981DC8402300841D5E /* WKJMarket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJMarket.h; sourceTree = "<group>"; };
+		908C5E991DC8402300841D5E /* WKJMarket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJMarket.m; sourceTree = "<group>"; };
+		908C5EA01DC840C600841D5E /* WKJAfterSale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJAfterSale.h; sourceTree = "<group>"; };
+		908C5EA11DC840C600841D5E /* WKJAfterSale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJAfterSale.m; sourceTree = "<group>"; };
+		908C5EA31DC840DD00841D5E /* WKJOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJOffice.h; sourceTree = "<group>"; };
+		908C5EA41DC840DD00841D5E /* WKJOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJOffice.m; sourceTree = "<group>"; };
+		908C5EA61DC840F000841D5E /* WKJMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJMore.h; sourceTree = "<group>"; };
+		908C5EA71DC840F000841D5E /* WKJMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJMore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +167,13 @@
 		908C5E711DC8206200841D5E /* 沃克家 舒适家居 */ = {
 			isa = PBXGroup;
 			children = (
+				908C5E8E1DC83BB400841D5E /* 登入 */,
+				908C5E8F1DC83C0200841D5E /* 销售 */,
+				908C5E901DC83C2B00841D5E /* 售后 */,
+				908C5E911DC83C3800841D5E /* 办公 */,
+				908C5E921DC83C3F00841D5E /* 更多 */,
 				908C5E8C1DC839D600841D5E /* Main Files */,
+				908C5E8D1DC83B0400841D5E /* Library */,
 				908C5E721DC8206200841D5E /* Supporting Files */,
 			);
 			path = "沃克家 舒适家居";
@@ -81,6 +194,8 @@
 				908C5E761DC8206200841D5E /* AppDelegate.m */,
 				908C5E781DC8206200841D5E /* ViewController.h */,
 				908C5E791DC8206200841D5E /* ViewController.m */,
+				902EF6E51DC8440A00494E84 /* WKJTabBar.h */,
+				902EF6E61DC8440A00494E84 /* WKJTabBar.m */,
 				908C5E7B1DC8206200841D5E /* Main.storyboard */,
 				908C5E811DC8206200841D5E /* Assets.xcassets */,
 				908C5E831DC8206200841D5E /* LaunchScreen.storyboard */,
@@ -88,6 +203,238 @@
 				908C5E7E1DC8206200841D5E /* ________.xcdatamodeld */,
 			);
 			name = "Main Files";
+			sourceTree = "<group>";
+		};
+		908C5E8D1DC83B0400841D5E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				908C5E931DC83CF300841D5E /* PrefixHeader.pch */,
+				908C5E941DC83E8000841D5E /* Macros.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		908C5E8E1DC83BB400841D5E /* 登入 */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EAA1DC841AC00841D5E /* Model */,
+				908C5EA91DC8419800841D5E /* View */,
+				908C5E9B1DC8404E00841D5E /* Controller */,
+			);
+			name = "登入";
+			sourceTree = "<group>";
+		};
+		908C5E8F1DC83C0200841D5E /* 销售 */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EAC1DC841CC00841D5E /* Model */,
+				908C5EAB1DC841C500841D5E /* View */,
+				908C5E9C1DC8407100841D5E /*  Controller */,
+			);
+			name = "销售";
+			sourceTree = "<group>";
+		};
+		908C5E901DC83C2B00841D5E /* 售后 */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EAE1DC841DF00841D5E /* Model */,
+				908C5EAD1DC841D400841D5E /* View */,
+				908C5E9D1DC8407D00841D5E /* Controller */,
+			);
+			name = "售后";
+			sourceTree = "<group>";
+		};
+		908C5E911DC83C3800841D5E /* 办公 */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EB01DC841ED00841D5E /* Model */,
+				908C5EAF1DC841E600841D5E /* View */,
+				908C5E9E1DC8408500841D5E /* Controller */,
+			);
+			name = "办公";
+			sourceTree = "<group>";
+		};
+		908C5E921DC83C3F00841D5E /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EB21DC8420400841D5E /* Model */,
+				908C5EB11DC841FA00841D5E /* View */,
+				908C5E9F1DC8408E00841D5E /* Controller */,
+			);
+			name = "更多";
+			sourceTree = "<group>";
+		};
+		908C5E9B1DC8404E00841D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				908C5E951DC83F7A00841D5E /* WKJLogin.h */,
+				908C5E961DC83F7A00841D5E /* WKJLogin.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		908C5E9C1DC8407100841D5E /*  Controller */ = {
+			isa = PBXGroup;
+			children = (
+				908C5E981DC8402300841D5E /* WKJMarket.h */,
+				908C5E991DC8402300841D5E /* WKJMarket.m */,
+				902EF6EE1DC84F0D00494E84 /* WKJTypeIn.h */,
+				902EF6EF1DC84F0D00494E84 /* WKJTypeIn.m */,
+				902EF6F11DC84F2500494E84 /* WKJReport.h */,
+				902EF6F21DC84F2500494E84 /* WKJReport.m */,
+				902EF6F41DC84F3D00494E84 /* WKJConsumer.h */,
+				902EF6F51DC84F3D00494E84 /* WKJConsumer.m */,
+				902EF6F71DC84F5E00494E84 /* WKJContract.h */,
+				902EF6F81DC84F5E00494E84 /* WKJContract.m */,
+				902EF6FA1DC84F8E00494E84 /* WKJContacts.h */,
+				902EF6FB1DC84F8E00494E84 /* WKJContacts.m */,
+				902EF6FD1DC84FA900494E84 /* WKJAddContacts.h */,
+				902EF6FE1DC84FA900494E84 /* WKJAddContacts.m */,
+			);
+			name = " Controller";
+			sourceTree = "<group>";
+		};
+		908C5E9D1DC8407D00841D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EA01DC840C600841D5E /* WKJAfterSale.h */,
+				908C5EA11DC840C600841D5E /* WKJAfterSale.m */,
+				902EF7001DC84FED00494E84 /* WKJDispatch.h */,
+				902EF7011DC84FED00494E84 /* WKJDispatch.m */,
+				902EF7031DC8500800494E84 /* WKJDispatchList.h */,
+				902EF7041DC8500800494E84 /* WKJDispatchList.m */,
+				902EF7061DC8502100494E84 /* WKJBegin.h */,
+				902EF7071DC8502100494E84 /* WKJBegin.m */,
+				902EF7091DC8503200494E84 /* WKJWorking.h */,
+				902EF70A1DC8503200494E84 /* WKJWorking.m */,
+				902EF70C1DC8505200494E84 /* WKJCompele.h */,
+				902EF70D1DC8505200494E84 /* WKJCompele.m */,
+				902EF70F1DC8507100494E84 /* WKJServant.h */,
+				902EF7101DC8507100494E84 /* WKJServant.m */,
+				902EF7121DC850B200494E84 /* WKJMaintain.h */,
+				902EF7131DC850B200494E84 /* WKJMaintain.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		908C5E9E1DC8408500841D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EA31DC840DD00841D5E /* WKJOffice.h */,
+				908C5EA41DC840DD00841D5E /* WKJOffice.m */,
+				902EF7151DC850F100494E84 /* WKJDiary.h */,
+				902EF7161DC850F100494E84 /* WKJDiary.m */,
+				902EF7181DC8510700494E84 /* WKJCheckDiary.h */,
+				902EF7191DC8510700494E84 /* WKJCheckDiary.m */,
+				902EF71B1DC8511D00494E84 /* WKJAttendance.h */,
+				902EF71C1DC8511D00494E84 /* WKJAttendance.m */,
+				902EF71E1DC8513E00494E84 /* WKJCheckAttendance.h */,
+				902EF71F1DC8513E00494E84 /* WKJCheckAttendance.m */,
+				902EF7211DC8515200494E84 /* WKJIncome.h */,
+				902EF7221DC8515200494E84 /* WKJIncome.m */,
+				902EF7241DC8516400494E84 /* WKJPayOut.h */,
+				902EF7251DC8516400494E84 /* WKJPayOut.m */,
+				902EF7271DC8517600494E84 /* WKJAccraditation.h */,
+				902EF7281DC8517600494E84 /* WKJAccraditation.m */,
+				902EF72A1DC8518600494E84 /* WKJList.h */,
+				902EF72B1DC8518600494E84 /* WKJList.m */,
+				902EF72D1DC8519900494E84 /* WKJBill.h */,
+				902EF72E1DC8519900494E84 /* WKJBill.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		908C5E9F1DC8408E00841D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				908C5EA61DC840F000841D5E /* WKJMore.h */,
+				908C5EA71DC840F000841D5E /* WKJMore.m */,
+				902EF7301DC851B200494E84 /* WKJWebsit.h */,
+				902EF7311DC851B200494E84 /* WKJWebsit.m */,
+				902EF7331DC851C200494E84 /* WKJCustomer.h */,
+				902EF7341DC851C200494E84 /* WKJCustomer.m */,
+				902EF7361DC851D300494E84 /* WKJAsk.h */,
+				902EF7371DC851D300494E84 /* WKJAsk.m */,
+				902EF7391DC851E300494E84 /* WKJUpdata.h */,
+				902EF73A1DC851E300494E84 /* WKJUpdata.m */,
+				902EF73C1DC851F500494E84 /* WKJAbout.h */,
+				902EF73D1DC851F500494E84 /* WKJAbout.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		908C5EA91DC8419800841D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		908C5EAA1DC841AC00841D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		908C5EAB1DC841C500841D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		908C5EAC1DC841CC00841D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		908C5EAD1DC841D400841D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				902EF6E81DC8488100494E84 /* WKJAfterSaleCell.h */,
+				902EF6E91DC8488100494E84 /* WKJAfterSaleCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		908C5EAE1DC841DF00841D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		908C5EAF1DC841E600841D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				902EF6EB1DC848FC00494E84 /* WKJOfficeCell.h */,
+				902EF6EC1DC848FC00494E84 /* WKJOfficeCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		908C5EB01DC841ED00841D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		908C5EB11DC841FA00841D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		908C5EB21DC8420400841D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +463,7 @@
 		908C5E671DC8206200841D5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WKJ;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = jundanuantong;
 				TargetAttributes = {
@@ -162,10 +510,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908C5EA21DC840C600841D5E /* WKJAfterSale.m in Sources */,
 				908C5E7A1DC8206200841D5E /* ViewController.m in Sources */,
+				902EF7081DC8502100494E84 /* WKJBegin.m in Sources */,
+				902EF6F91DC84F5E00494E84 /* WKJContract.m in Sources */,
+				902EF7171DC850F100494E84 /* WKJDiary.m in Sources */,
+				902EF70B1DC8503200494E84 /* WKJWorking.m in Sources */,
+				902EF7261DC8516400494E84 /* WKJPayOut.m in Sources */,
+				902EF6EA1DC8488100494E84 /* WKJAfterSaleCell.m in Sources */,
 				908C5E801DC8206200841D5E /* ________.xcdatamodeld in Sources */,
+				902EF6F01DC84F0D00494E84 /* WKJTypeIn.m in Sources */,
+				902EF7321DC851B200494E84 /* WKJWebsit.m in Sources */,
+				902EF6F61DC84F3D00494E84 /* WKJConsumer.m in Sources */,
+				902EF70E1DC8505300494E84 /* WKJCompele.m in Sources */,
+				902EF7381DC851D300494E84 /* WKJAsk.m in Sources */,
+				902EF7231DC8515200494E84 /* WKJIncome.m in Sources */,
+				902EF7021DC84FED00494E84 /* WKJDispatch.m in Sources */,
+				908C5E9A1DC8402300841D5E /* WKJMarket.m in Sources */,
+				902EF7291DC8517600494E84 /* WKJAccraditation.m in Sources */,
 				908C5E771DC8206200841D5E /* AppDelegate.m in Sources */,
+				902EF72F1DC8519900494E84 /* WKJBill.m in Sources */,
 				908C5E741DC8206200841D5E /* main.m in Sources */,
+				902EF73E1DC851F500494E84 /* WKJAbout.m in Sources */,
+				902EF7111DC8507100494E84 /* WKJServant.m in Sources */,
+				902EF7141DC850B200494E84 /* WKJMaintain.m in Sources */,
+				908C5EA51DC840DD00841D5E /* WKJOffice.m in Sources */,
+				908C5EA81DC840F000841D5E /* WKJMore.m in Sources */,
+				902EF71A1DC8510700494E84 /* WKJCheckDiary.m in Sources */,
+				902EF6F31DC84F2500494E84 /* WKJReport.m in Sources */,
+				902EF71D1DC8511D00494E84 /* WKJAttendance.m in Sources */,
+				902EF72C1DC8518600494E84 /* WKJList.m in Sources */,
+				902EF7201DC8513E00494E84 /* WKJCheckAttendance.m in Sources */,
+				902EF6FF1DC84FA900494E84 /* WKJAddContacts.m in Sources */,
+				902EF6E71DC8440A00494E84 /* WKJTabBar.m in Sources */,
+				902EF7051DC8500800494E84 /* WKJDispatchList.m in Sources */,
+				902EF73B1DC851E300494E84 /* WKJUpdata.m in Sources */,
+				902EF6ED1DC848FC00494E84 /* WKJOfficeCell.m in Sources */,
+				908C5E971DC83F7A00841D5E /* WKJLogin.m in Sources */,
+				902EF7351DC851C200494E84 /* WKJCustomer.m in Sources */,
+				902EF6FC1DC84F8E00494E84 /* WKJContacts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +604,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -267,6 +651,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
