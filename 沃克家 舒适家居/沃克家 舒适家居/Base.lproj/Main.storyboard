@@ -216,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEe-Ci-fbP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1375.2" y="40.929535232383813"/>
+            <point key="canvasLocation" x="-1345" y="304"/>
         </scene>
         <!--Login-->
         <scene sceneID="lgK-BZ-iCE">
@@ -246,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="znh-Bx-43G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-694" y="41"/>
+            <point key="canvasLocation" x="-665" y="304"/>
         </scene>
         <!--Tab Bar-->
         <scene sceneID="Reu-8o-tiU">
@@ -267,7 +267,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mBc-EN-ELi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="42"/>
+            <point key="canvasLocation" x="58" y="304"/>
         </scene>
         <!--办公-->
         <scene sceneID="GV6-of-OpS">
@@ -284,20 +284,20 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KrQ-Sy-b6o">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="L2h-cV-6HS">
-                                    <size key="itemSize" width="130" height="127"/>
+                                    <size key="itemSize" width="84" height="67"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="WKJOfficeCell" reuseIdentifier="WKJOfficeCell" id="pT1-Yz-vZc" customClass="WKJOfficeCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="127"/>
+                                        <rect key="frame" x="10" y="10" width="84" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="130" height="127"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="84" height="67"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
-                                        <size key="customSize" width="130" height="127"/>
+                                        <size key="customSize" width="84" height="67"/>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -316,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7q-kS-YKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573" y="-352"/>
+            <point key="canvasLocation" x="1572" y="-352.17391304347831"/>
         </scene>
         <!--Diary-->
         <scene sceneID="d6g-dK-Nat">
@@ -457,7 +457,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nhh-Pu-uin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3593" y="303"/>
+            <point key="canvasLocation" x="3593" y="305"/>
         </scene>
         <!--Updata-->
         <scene sceneID="bMN-7a-WPh">
@@ -475,7 +475,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0E-Rl-BIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4266" y="302"/>
+            <point key="canvasLocation" x="4265" y="304"/>
         </scene>
         <!--About-->
         <scene sceneID="LwI-bc-MH6">
@@ -493,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t5K-1H-Ioz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4958" y="301"/>
+            <point key="canvasLocation" x="4958" y="304"/>
         </scene>
         <!--售后-->
         <scene sceneID="aGZ-al-ds6">
@@ -510,17 +510,17 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SNG-3H-Ev4">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EcJ-Lo-mFI">
-                                    <size key="itemSize" width="100" height="104"/>
+                                    <size key="itemSize" width="83" height="77"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="WKJAfterSaleCell" reuseIdentifier="WKJAfterSaleCell" id="YLi-i4-inB" customClass="WKJAfterSaleCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
+                                        <rect key="frame" x="10" y="10" width="83" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="83" height="77"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
                                     </collectionViewCell>
